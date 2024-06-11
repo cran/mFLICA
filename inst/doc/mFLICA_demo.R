@@ -6,9 +6,11 @@ plotMultipleTimeSeries(TS=mFLICA::TS[,,1],strTitle="x axis")
 
 ## -----------------------------------------------------------------------------
 plotMultipleTimeSeries(TS=mFLICA::TS[,,2],strTitle="y axis")
+?followingRelation
 
 ## -----------------------------------------------------------------------------
 obj1<-mFLICA(TS=mFLICA::TS[,1:200,],timeWindow=60,sigma=0.5)
+
 
 ## -----------------------------------------------------------------------------
  plotMultipleTimeSeries(TS=obj1$dyNetOut$dyNetBinDensityVec, strTitle="Network Dnesity")
