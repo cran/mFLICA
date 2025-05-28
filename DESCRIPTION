@@ -1,6 +1,6 @@
 Package: mFLICA
 Title: Leadership-Inference Framework for Multivariate Time Series
-Version: 0.1.6
+Version: 0.1.7
 Authors@R: c(
     person(given = "Chainarong", family = "Amornbunchornvej",
            role = c("aut", "cre"), email = "grandca@gmail.com",
@@ -19,12 +19,12 @@ Depends: R (>= 3.5.0)
 Imports: ggplot2 (>= 3.0)
 Suggests: knitr, rmarkdown, R.rsp
 VignetteBuilder: knitr, R.rsp
-RoxygenNote: 7.3.1
+RoxygenNote: 7.3.2
 NeedsCompilation: no
-Packaged: 2024-06-11 07:51:06 UTC; 006005
-Author: Chainarong Amornbunchornvej [aut, cre]
-    (<https://orcid.org/0000-0003-3131-0370>),
+Packaged: 2025-05-28 09:18:12 UTC; zero
+Author: Chainarong Amornbunchornvej [aut, cre] (ORCID:
+    <https://orcid.org/0000-0003-3131-0370>),
   Namrata Banerji [ctb]
 Maintainer: Chainarong Amornbunchornvej <grandca@gmail.com>
 Repository: CRAN
-Date/Publication: 2024-06-11 08:10:02 UTC
+Date/Publication: 2025-05-28 10:20:02 UTC

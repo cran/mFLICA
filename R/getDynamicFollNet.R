@@ -36,6 +36,13 @@ getDynamicFollNet<-function(TS,timeWindow,timeShift,sigma=0.50,lagWindow=0.1,sil
   invN<-dim(TS)[1]
   Tlength<-dim(TS)[2]
   dimensionsN<-dim(TS)[3]
+
+  if(dimensionsN==1){ # patch form bug issue of one dim problem
+    B <- array(0, c(invN, Tlength, 2))
+    B[, , 1] <- TS[,,1]
+    TS <- B
+    dimensionsN <- dim(TS)[3]
+  }
   dyNetBinMat<- array(0,dim=c(invN,invN,Tlength))
   dyNetWeightedMat <- array(0,dim=c(invN,invN,Tlength))
   dyNetBinDensityVec<- array(0,dim=c(1,Tlength))

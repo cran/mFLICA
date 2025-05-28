@@ -1,3 +1,6 @@
+# mFLICA v0.1.7
+* Fix one-dimensional issue for getDynamicFollNet
+
 # mFLICA v0.1.6
 * Implement DTW2 by Namrata Banerji to make the code match the MATLAB version
 
